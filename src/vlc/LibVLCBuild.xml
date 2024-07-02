@@ -10,7 +10,7 @@
 	</files>
 
 	<target id="haxe" tool="linker" if="android">
-		<lib name="${haxelib:hxCodec}/lib/Android/libvlc-v7.so" if="HXCPP_ARMV7" />
+		<lib name="${haxelib:hxCodec}/ndll/Android/libvlc-v7.so" if="HXCPP_ARMV7" />
 		<lib name="${haxelib:hxCodec}/ndll/Android/libvlc-64.so" if="HXCPP_ARM64" />
 	</target>
 
